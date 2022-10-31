@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <title>@ViewData["Title"] - Ong</title>
+    
+    <link rel="icon" href="~/img/icon.jpg" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/adoção.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Ong.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+</head>
+<body style="margin-bottom: 0px;">
+    <header>
+        <nav class="nav1">
+            <a href="https://www.instagram.com/rei_arthur.png/?next=%2F" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5519988416960" target="_blank">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="#" target="_blank">
+               <i class="bi bi-geo-alt"></i>
+            </a>
+        </nav>
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div id="container-fluid" class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="https://i.pinimg.com/236x/6c/98/46/6c9846b7d091999f1b5f4db18436856f.jpg" alt="icon" class="icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent">
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbar-nav" class="navbar-collapse collapse d-sm-inline-flex">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link " asp-area="" asp-controller="Home" asp-action="adocao">adoção</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link " asp-area="" asp-controller="Home" asp-action="Loja">Loja</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container00">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-bottom">
+        <div id="container0" class="container0">
+            &copy; 2022 - Ong - AAB
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!--Não pega 
+<script src="~/js/cep.js" asp-append-version="true"></script>
+-->
+<section class="container06">
+    <fieldset class="formulario">
+        <div class="cor">
+        <form action="https://api.staticforms.xyz/submit" method="post">.
+        <!--Chave de acesso-->
+        <input type="hidden" name="accessKey" value="b74a3178-535f-43f9-b22a-6d3bb9e5c635">
+        <input type="hidden" name="redirectTo" value="https://localhost:44306/Home/obrigado">
+                <h1 class="cadastro">Cadastro</h1>
+                <section class="dados">
+                    <legend class="dados_">Dados Pessoais:</legend>
+                        <div class="dados_pessoais">
+                            <label for="#" class="nome"><strong>Nome :</strong></label>
+                                <input type="text" name="$nome" id="nome01" placeholder="Digite seu nome Completo:" required>
+                            <label for="#" class="CPF"><strong>CPF :</strong></label>
+                                <input type="number" name="$cpf" id="CPF01" placeholder="Digite seu CPF:" required>
+                            <label for="#" class="email"><strong>Email :</strong></label>
+                                <input type="email" name="$email" id="email01" placeholder="Digite seu Email:" required>        
+                        </div>
+                <br>
+                   <legend class="dados_">Endereço :</legend>
+                        <div class="endereço">
+                            <label for="#" class="cidade"><strong>Cidade :</strong></label>
+                                <input type="text" name="$Cidade" id="cidade01" placeholder="Digite sua Cidade:" required>
+                            <label  class="label01"><strong>Estado :</strong></label>
+                                <select style="width: 152px;" name="$Estado" id="Estado01" class="Estado01" required>
+                                    <option selected disabled value="">Seu Estado:</option>
+                                    <option>SP</option>
+                                    <option>RJ</option>
+                                    <option>SC</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>RS</option>
+                                    <option>PB</option>
+                                    <option>PE</option>
+                                    <option>AM</option>
+                                    <option>MA</option>
+                                    <option>CE</option>
+                                    <option>ES</option>
+                                    <option>PR</option>
+                                    <option>GO</option>
+                                    <option>DF</option>
+                                    <option>AC</option>
+                                    <option>RR</option>
+                                    <option>RO</option>
+                                    <option>TO</option>
+                                    <option>PA</option>
+                                    <option>AP</option>
+                                    <option>PI</option>
+                                    <option>RN</option>
+                                    <option>SE</option>
+                                    <option>BA</option>
+                                    <option>AL</option>
+                                </select>   
+                            <label for="#" class="Cepp"><strong>CEP :</strong></label>
+                                <input type="text" name="$CEP" id="cep" size="15" maxlength="8" autocomplete="off" placeholder="Digite seu Cep:" required>
+                        </div>
+                <br>
+                    <legend class="dados_">Motivos para adoção :</legend>
+                        <div class="texto10">
+                            <label for="#" class="textarea"><strong class="just">Justificativa :</strong></label>
+                                    <textarea name="$textarea01" id="textarea01" style="margin-left: 15px;" cols="115" rows="5" placeholder="Escreva seus motivos:" required></textarea>
+                        </div>
+                <br>
+                    <div class="aceite">
+                        <input type="checkbox" name="$check" id="chek" required>Eu aceito os termos
+                        <button  href="~/Home/obrigado" style="background-color: #6cb3f1c2;" type="submit">Enviar</button>
+                    </div>
+                </section>
+        </form>
+        </div>
+    </fieldset>
+</section>

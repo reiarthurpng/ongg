@@ -1,0 +1,59 @@
+input {
+    width: 208px;
+    height: 26px;
+}
+.container06 {
+    height: 720px;
+    background-image: url(https://i.pinimg.com/originals/6e/e9/88/6ee98894a03f059626881628eec02a4e.gif);
+}
+.dados_pessoais {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding-left: 10px;
+}
+.cor {
+    background: #f9f9f9b8;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 110px;
+}
+.cadastro {
+    text-align: center;
+    font-size: 45px;
+    font-family: auto;
+}
+.dados_ {
+    padding-left: 6px;
+    font-size: 20px;
+}
+.endereço {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding-left: 10px;
+}
+#chek {
+    width: 14px;
+}
+.aceite {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.textarea {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.container20 {
+    background-image: url(https://i.pinimg.com/564x/63/2c/4a/632c4aea166f7bbe6a596c1336a7b3cf.jpg);
+    height: 720px;
+}
+.tanks {
+    padding-top: 250px;
+    text-align: center;
+    font-family: auto;
+    color: white;
+    font-size: 5rem;
+}

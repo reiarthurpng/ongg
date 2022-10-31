@@ -1,0 +1,32 @@
+.contanier02 {
+    background-image: url(https://i.pinimg.com/564x/84/25/99/842599dd2f4c759d9ac0cd27244a8f14.jpg);
+    height: 715px;
+    text-transform: uppercase;
+    color: #fffffffa;
+}
+.adoção {
+    margin-bottom: 10px;
+    padding-top: 200px;
+}
+.regras {
+    padding-left: 57px;
+}
+.texto01 {
+    text-align: center;
+    border-bottom-style: outset;
+    border-bottom-color: #523ff3a6;
+    margin: 0px 274px 0px 274px;
+}
+.formulario01 {
+    color: #ff0000;
+    text-decoration: none;
+}
+.texto03 {
+    text-align: center;
+    border-bottom-style: outset;
+    border-bottom-color: #523ff3a6;
+    margin: 0px 371px 10px 402px;
+}
+.pagametos {
+    padding-left: 418px;
+}
